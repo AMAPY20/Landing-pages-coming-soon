@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="هذه هي صفحة هبوط لعد تنازلى لنشر تطبيق هاتفي عبارة عن لعبة" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>صفحة هبوط لتطبيق هاتف</title>
+</head>
+
+<body>
+    <header class="text-center">
+        <div class="brand wow animate__animated animate__bounceInDown">
+            <div class="logo">
+                <img src="images/icon.png" alt="شعار التطبيق">
+            </div>
+            <div class="slogn">
+                <img src="images/slogn.png" alt="شعار التطبيق">
+            </div>
+        </div>
+        <div class="page-heading animate__animated animate__fadeInUp">
+            <h1>
+                أنتظروا إنطلاق التطبيق قريباً
+            </h1>
+            <p>
+                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم
+                في صناعات المطابع
+            </p>
+        </div>
+        <div class="counter wow animate__animated animate__fadeInDown">
+            <div id="defaultCountdown"></div>
+        </div>
+        <div class="send-notification wow animate__animated animate__zoomIn">
+            <p>
+                هل تريد إرسال إشعار فور الانطلاق؟
+            </p>
+            <form action="#" method="post" name="myForm" class="animate__animated animate__zoomIn">
+
+                <div class="form-group">
+
+                    <div class="input-group input-group-lg">
+                        <input type="email" class="form-control" placeholder="بريدك الالكترونى" name="email" required>
+                        <span class="input-group-btn">
+                            <button class="btn Form-Submit" type="submit" name="submit"
+                                onclick="Javascript:validateForm();">
+                                <img src="images/icons/send1.png" alt="send" />
+                            </button>
+                        </span>
+
+                        <div class="alert alert-danger">
+                            <strong>عذراً! </strong> لقد قمت بإدخال بريد الكتروني خاطئ.
+                        </div>
+
+                        <div class="alert alert-success">
+                            <strong>تهانينا، </strong> لقد تم ادخال بريدك الالكتروني بنجاح.
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <section class="features">
+        <div class="container">
+            <h2>
+                مميزات اللعبة
+            </h2>
+
+            <!--بطاقات مميزات اللعبة-->
+            <div class="row">
+                <!--بطاقة رقم 1-->
+                <div class="col-md-6">
+                    <div class="media">
+                        <img src="images/icons/prush.png" alt="feature icon" />
+                        <div class="media-body">
+                            <h5>
+                                تصميم أنيق وعصري
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--بطاقة رقم 2-->
+                <div class="col-md-6">
+                    <div class="media">
+                        <div class="media-body">
+                            <h5>
+                                اللعبة متوفرة بوضع الشاشة الممتلئ
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                        <img src="images/icons/phone.png" alt="feature icon" />
+                    </div>
+                </div>
+                <!--بطاقة رقم 3-->
+                <div class="col-md-6">
+                    <div class="media">
+                        <img src="images/icons/photo.png" alt="feature icon" />
+                        <div class="media-body">
+                            <h5>
+                                يوجد صور لتوضيح تفاصيل اللعبة
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--بطاقة رقم 4-->
+                <div class="col-md-6">
+                    <div class="media">
+                        <div class="media-body">
+                            <h5>
+                                يمكنك مشاركة اللعبة كمجموعة
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                        <img src="images/icons/fork.png" alt="feature icon" />
+                    </div>
+                </div>
+                <!--بطاقة رقم 5-->
+                <div class="col-md-6">
+                    <div class="media">
+                        <img src="images/icons//mail.png" alt="feature icon" />
+                        <div class="media-body">
+                            <h5>
+                                يمكنك ارسال الهدايا لاصدقائك عبر اللعبة
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--بطاقة رقم 6-->
+                <div class="col-md-6">
+                    <div class="media">
+                        <div class="media-body">
+                            <h5>
+                                إضافة أصدقاء جدد للعبة
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                        <img src="images/icons/person-plus.png" alt="feature icon" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="top-footer text-center">
+            <div class="overlay">
+                <h3>
+                    قم بإضافة بريدك الإلكتروني ليصلك إشعار فور الانطلاق
+                </h3>
+
+                <form action="#" method="post" name="myForm2">
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <input type="email" class="form-control" placeholder="بريدك الالكترونى" name="email2"
+                                required>
+                            <span class="input-group-btn">
+                                <button class="btn Form-Submit" type="submit" name="submit">
+                                    <img src="images/icons/send.png" alt="send" />
+                                </button>
+                            </span>
+                            <div class="alert alert-danger" role="alert">
+                                <strong>عذراً! </strong> لقد قمت بإدخال بريد الكتروني خاطئ.
+                            </div>
+                            <div class="alert alert-success" role="alert">
+                                <strong>تهانينا، </strong> لقد تم ادخال بريدك الالكتروني بنجاح.
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="contact text-center">
+            <div class="overlay">
+                <h3>
+                    تابعنا على القنوات الاجتماعية
+                </h3>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="linkedin">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+
+                <!-- إضافة رابط إرسال بريد إلكتروني وإضافة أيقونة له -->
+                <p>
+                    <a href="mailto:info@domain.com?Subject=Hello" target="_top">
+                        <i class="fas fa-envelope"></i>
+                        info@domain.com
+                    </a>
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://kit.fontawesome.com/bcd3414fd9.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+    <script src="js/jquery.countdown/jquery.plugin.min.js"></script>
+    <script src="js/jquery.countdown/jquery.countdown.min.js"></script>
+    <script src="js/jquery.countdown/jquery.countdown-ar.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
