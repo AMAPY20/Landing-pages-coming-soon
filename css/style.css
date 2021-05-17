@@ -106,7 +106,7 @@ footer .top-footer .overlay .input-group button:focus {
 
 header .send-notification .input-group,
 footer .top-footer .overlay .input-group {
-  width: 30%;
+  width: 40%;
   margin: 0 auto;
   position: relative;
 }
@@ -243,3 +243,4 @@ footer .contact .overlay ul li a {
     animation-name: none !important;
   }
 }
+
